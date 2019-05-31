@@ -2,10 +2,6 @@
   
  get_header();
  ?>
- <style>
-
-
- </style>
 <?php
 $current_cat_id  = get_query_var('Charity');
 $args = array(
@@ -14,15 +10,10 @@ $args = array(
 );
 $query = new WP_Query( $args );
 
-//$cat_name = $cats[0]->name;
-//$cat_name = get_category(get_query_var('cat'))->name;
-
  ?>
  <div id="main_container">
  <?php   
 $counter = 1; //start counter
- 
-$grids = 2; //Grids per row
  
  while ( $query->have_posts() ) : $query->the_post();
  $cat_name = get_category(get_query_var('cat'))->name;
