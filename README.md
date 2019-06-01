@@ -1,5 +1,5 @@
 #category-page.php contain the logic to bring spcefic post from spcefic category.
-#Desing for blog layout inside on style.css
+#Design for blog layout inside on style.css
 
 
 ©WP Post Popup
