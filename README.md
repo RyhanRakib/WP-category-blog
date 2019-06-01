@@ -14,3 +14,7 @@
 #Version: 2.2.0
 #ajax-load-more-anything work with class which help to add load more button on that tmeplate page
 #For Documenttaion check plugin page: https://wordpress.org/plugins/ajax-load-more-anything/
+
+*** For custom PostMeta I have used ACF plugin to fetch post meta
+*** get_field( "custom_post_meta", $post_id );
+// Line 41 on category-page.php
